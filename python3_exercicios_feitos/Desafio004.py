@@ -1,0 +1,7 @@
+n = input("Type something: ")
+print('Qual o formato?',type(n))
+print('É letra?',n.isalpha())
+print('É número e letra?',n.isalnum())
+print('Está em minúsculo?',n.islower())
+print('Está em maiúsculo?',n.isupper())
+print('É número?',n.isnumeric())
